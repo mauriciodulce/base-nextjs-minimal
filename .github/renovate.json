@@ -1,0 +1,29 @@
+{
+    "baseBranches": ["main"],
+    "commitMessageAction": "⬆️ Bump",
+    "commitMessageTopic": "{{depName}}",
+    "extends": ["config:base", "schedule:weekly"],
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["minor", "patch", "pin"],
+        "automerge": true
+      },
+      {
+        "matchUpdateTypes": ["major"],
+        "automerge": false
+      },
+      {
+        "groupName":"Prismic",
+        "matchPackageNames": ["@prismicio/"],
+        "schedule": ["at any time"],
+        "automerge": true
+      },
+      {
+        "groupName": "Next.js",
+        "matchPackageNames": ["next"],
+        "schedule": ["at any time"],
+        "automerge": true
+      } 
+    ],
+    "timezone": "America/Bogota"
+  }
