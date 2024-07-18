@@ -14,6 +14,7 @@ const components: JSXMapSerializer = {
     return null;
   },
 };
+
 /**
  * Props for `RichText`.
  */
