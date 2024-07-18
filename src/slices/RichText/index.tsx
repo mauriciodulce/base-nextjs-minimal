@@ -1,11 +1,7 @@
 import type { Content } from "@prismicio/client";
 import { PrismicNextLink } from "@prismicio/next";
-import {
-  PrismicRichText,
-  SliceComponentProps,
-  JSXMapSerializer,
-} from "@prismicio/react";
-import styles from "./index.module.css";
+import type { SliceComponentProps, JSXMapSerializer } from "@prismicio/react";
+import { PrismicRichText } from "@prismicio/react";
 
 const components: JSXMapSerializer = {
   hyperlink: ({ node, children }) => {
@@ -15,6 +11,7 @@ const components: JSXMapSerializer = {
     if (node.data.label === "codespan") {
       return <code>{children}</code>;
     }
+    return null;
   },
 };
 
@@ -28,7 +25,7 @@ type RichTextProps = SliceComponentProps<Content.RichTextSlice>;
  */
 const RichText = ({ slice }: RichTextProps): JSX.Element => {
   return (
-    <section className={styles.richtext}>
+    <section>
       <PrismicRichText field={slice.primary.content} components={components} />
     </section>
   );
