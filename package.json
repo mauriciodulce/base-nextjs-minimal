@@ -18,6 +18,9 @@
     "_postbuild": "next-sitemap",
     "slicemachine": "start-slicemachine"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@prismicio/client": "^7.6.0",
     "@prismicio/next": "^1.6.0",
