@@ -1,5 +1,5 @@
 providers = []
-buildImage = 'ghcr.io/railwayapp/nixpacks:debian-1721088222'
+
 
 [variables]
 CI = 'true'
