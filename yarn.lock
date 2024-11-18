@@ -994,9 +994,9 @@
   integrity sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==
 
 "@scarf/scarf@^1.1.1":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.3.0.tgz#f8c75560d0dace4452dee1e31995e6396e61f3ee"
-  integrity sha512-lHKK8M5CTcpFj2hZDB3wIjb0KAbEOgDmiJGDv1WBRfQgRm/a8/XMEkG/N1iM01xgbUDsPQwi42D+dFo1XPAKew==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.4.0.tgz#3bbb984085dbd6d982494538b523be1ce6562972"
+  integrity sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==
 
 "@segment/analytics-core@1.3.2":
   version "1.3.2"
@@ -1042,13 +1042,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.56"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.56.tgz#d8d6572a44c7b2b9e0801d1593b9e7a860d7956f"
-  integrity sha512-4pWftU8QBWK8EGIzkQ8H0vH/zSAVGO6yXfsVMk5j5Wzh3CEdac4DBljUIj3LFf0Rht0mSnli3CZAe/QXwMdyFQ==
+  version "0.3.57"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.57.tgz#943a727bd5fbd9cdd647e93324a85428e09dd421"
+  integrity sha512-L13j6o3CH+wnB1SSISJpN/3Y/GQHyZTKO6qwstr0GwMoWHLYx6ZaJVOKpnwkJ68x8nC4vQBd18ckRfJv4u0xqA==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "^2.8.0"
-    "@slicemachine/plugin-kit" "0.4.56"
+    "@slicemachine/plugin-kit" "0.4.57"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1106,10 +1106,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.56":
-  version "0.4.56"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.56.tgz#cf2a36ae4a8c9f27f482cb6a61eea49fb61354e6"
-  integrity sha512-+VnVgD/YtLVcl/eXt0yDJg1UjWv01hhZOHI3S6+otHWoGVTyz085eF79vcCbqaKdCJh2aYWDdJB4TzN6uu+7MQ==
+"@slicemachine/plugin-kit@0.4.57":
+  version "0.4.57"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.57.tgz#fbd927f7b2434f5b2bd49e0f07fa12b1ea73d0fc"
+  integrity sha512-XyEe2THdVdQwpYgBKr2mdp2mFsgdZA/cW5PlncxKGCCZoNIVLTPLiO+gbU+sfir1nqrtzSTT3K3vdVEToTUjuw==
   dependencies:
     "@prismicio/client" "^7.11.0"
     common-tags "^1.8.2"
