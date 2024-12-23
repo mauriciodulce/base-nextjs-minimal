@@ -1043,13 +1043,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.60"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.60.tgz#9a7b78f411cf94d4758fbb8a931368c30ca8cc7d"
-  integrity sha512-O35pIPKb5aprqnhOqgsfK98Y/74Vxpj+XkezVA+FZkgWFPsqT0MXZp+PAMSNbqJEsljTQ3aqASuZQBZwlbjxSg==
+  version "0.3.61"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.61.tgz#c894a5c8c5e48e044a9f319481043a34471d3e0b"
+  integrity sha512-Hnhx3FlxUaehK2T7B9GvX4s1inbl1GNoznIZsngQd5xpVCT7QQID0o6E6uSI0DkDoM7uGa0GOqm40171mJzKSA==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.2.0"
-    "@slicemachine/plugin-kit" "0.4.60"
+    "@slicemachine/plugin-kit" "0.4.61"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1107,10 +1107,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.60":
-  version "0.4.60"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.60.tgz#50d1cf1f1cc11b1244f9d22737a9dacaf148c2f1"
-  integrity sha512-SLwRRo6FHGULfZh2c8Dqn5SpvFCleQCJvks0X0sVQ3gjiqpCw+MRee1UeAg//do6+CGCHpvtcHoc/vF8JLoMQg==
+"@slicemachine/plugin-kit@0.4.61":
+  version "0.4.61"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.61.tgz#2c3434aac43b980aae469478196d135faf7690e8"
+  integrity sha512-4SqfKGHW1JXMynm04d3I4wTBWqjpfFE8SdD6wg474SqjquXzeEFTUgLNZMhrfNZJGp0YjrOhcUd2wuWisgj6zQ==
   dependencies:
     "@prismicio/client" "^7.11.0"
     common-tags "^1.8.2"
@@ -3667,7 +3667,12 @@ jackspeak@^3.1.2:
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
 
-jiti@^1.18.2, jiti@^1.19.1, jiti@^1.20.0, jiti@^1.21.0:
+jiti@^1.18.2:
+  version "1.21.7"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.7.tgz#9dd81043424a3d28458b193d965f0d18a2300ba9"
+  integrity sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==
+
+jiti@^1.19.1, jiti@^1.20.0, jiti@^1.21.0:
   version "1.21.6"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.6.tgz#6c7f7398dd4b3142767f9a168af2f317a428d268"
   integrity sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==
