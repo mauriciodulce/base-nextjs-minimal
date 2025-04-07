@@ -852,12 +852,19 @@
     tslib "^2.5.0"
     uuid "^9.0.0"
 
-"@prismicio/client@7.17.0", "@prismicio/client@^7.1.0":
+"@prismicio/client@7.17.0":
   version "7.17.0"
   resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.17.0.tgz#7b8f12fbc76e02a23fe817a1a0d8410d83fc40f6"
   integrity sha512-7e1ICYk4IAxKX8zmtCOy9e8rXeeT9A45ZgJY9lNNWqUaL1LW/ilXnh/SsAZG/G5q14JyRJHwBIGIzcKY9hjJhw==
   dependencies:
     imgix-url-builder "^0.0.5"
+
+"@prismicio/client@^7.1.0":
+  version "7.17.1"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.17.1.tgz#f2a14a4e8d1912730bd8728c2a484a7d094766a1"
+  integrity sha512-/CozojXyPYU62SOJ7Ln65wOmHhlWi03n7Vplciao9k+J3HvdxoSFa+RB2IAYY0Xd7wuXCCesscgCjbNy70pGPA==
+  dependencies:
+    imgix-url-builder "^0.0.6"
 
 "@prismicio/client@^7.5.0", "@prismicio/client@^7.6.0":
   version "7.6.0"
@@ -1033,13 +1040,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.72"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.72.tgz#b146c48751fecdf10caa4920cec10194f9eeae04"
-  integrity sha512-u/L9WS2C9gKPdv8qXbuTHmd5aUrZH8QJUkccTd+b+xGFJb76rxkYOXj2Vk/6EFiGAq8YIlXXoVeUmgvBHjxoRQ==
+  version "0.3.73"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.73.tgz#df2842c533807c208f08c1b84ceffb004f3040bf"
+  integrity sha512-8jGFRQuhpJLVEL41AP5S+VHSQrolkm/ii8PSLvLg1gmeZr5VPGPTtlWzWdJTj0/4QPPdrd0GUJARyNllzGyP5g==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.8.0"
-    "@slicemachine/plugin-kit" "0.4.71"
+    "@slicemachine/plugin-kit" "0.4.72"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1097,10 +1104,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.71":
-  version "0.4.71"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.71.tgz#9ae5a8fdddac3de96785bce14e00fc47f9f5eb91"
-  integrity sha512-UZXTRxB+7JpHazj2kBhHfk5hvIfzZdl18BJNJfZd9wRyCFnE1whqMHZOo5yOeh4U4Tz+0QPB8K0Ee8aQ+H1x0w==
+"@slicemachine/plugin-kit@0.4.72":
+  version "0.4.72"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.72.tgz#82978c492d9c8ed2560cd979e629545b47675e17"
+  integrity sha512-FUceS3oo2tcoz1lOiBvqy3WsQUyk6j2VfRCDxs2+8tJTLLNJdoZXPAI2uXCiNDdZBYJoZNdb9mGv2OvnX/cLSQ==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -3363,6 +3370,11 @@ imgix-url-builder@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/imgix-url-builder/-/imgix-url-builder-0.0.5.tgz#641e4af7fc1443d3f9f30f3c1331e4c1a2ad9832"
   integrity sha512-dCx3UlXghtsjySoqVCcHQHRikqDummwQEfKlxBUK/wrMzd+1ox/XX+zhqVuXKMVuZvCc84pVLEJyntQB0OOi/w==
+
+imgix-url-builder@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/imgix-url-builder/-/imgix-url-builder-0.0.6.tgz#5bed6f1a0969f6f3ad91fa876f1c7c39071a0823"
+  integrity sha512-lFVbvaE9vMck8qz9j+y6o7vsyc1vZhdqzWu+Wp/nlnOCi9zAErc31QMkZKYUGMNLLzxOO4YIBAUPndTPah8HFg==
 
 import-fresh@^3.2.1:
   version "3.3.0"
