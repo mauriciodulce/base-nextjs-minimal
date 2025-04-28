@@ -1069,13 +1069,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.74"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.74.tgz#489eecc64bf72a42850abeb1597e629ad7637f33"
-  integrity sha512-cBKlfDMlZnTTLxAX8y5T8a77PXahy3lU4QUgD5kJnPR81HL8Avzbvst27xcXN4uo3SrlY2Satn3v9hLOdLSNuQ==
+  version "0.3.75"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.75.tgz#02d6ae4a6f99266def71369cc9fc7aed4f5661c1"
+  integrity sha512-t8obKHVr1bW4SKvpu8TRL97dPhLYrivZBEEaZPy5mTLVRCOl3J4Kf8A10fwfZeuhuJECSWxXrqUCABmU8NcDRQ==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.8.0"
-    "@slicemachine/plugin-kit" "0.4.73"
+    "@slicemachine/plugin-kit" "0.4.74"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1133,10 +1133,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.73":
-  version "0.4.73"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.73.tgz#f0df3e25ee46250f2cb0540647357da8b456bf98"
-  integrity sha512-MERWFCuiYrvhkIL+hoMxZVKDOXkqVZ7wSoEumc2wMAnyFyngso1/rfM/40X0HWSmlDjDFaImOuA2W5XtZ2X2Wg==
+"@slicemachine/plugin-kit@0.4.74":
+  version "0.4.74"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.74.tgz#10bc12734ac76392dadd45977356038a574add8f"
+  integrity sha512-wdarbRyZVhsm71gr2u0Pmp83qVwTaVSWC2xH7oQ8ATP6ja2ywS1OKoJiRkpF+ITiZk6KmYCGWGE0om8Bl+QXjg==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -3104,9 +3104,9 @@ fp-ts@^2.11.8:
   integrity sha512-nmDtNqmMZkOxu0M5hkrS9YA15/KPkYkILb6Axg9XBAoUoYEtzg+LFmVWqZrl9FNttsW0qIUpx9RCA9INbv+Bxw==
 
 fp-ts@^2.13.1:
-  version "2.16.9"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.16.9.tgz#99628fc5e0bb3b432c4a16d8f4455247380bae8a"
-  integrity sha512-+I2+FnVB+tVaxcYyQkHUq7ZdKScaBlX53A41mxQtpIccsfyv8PzdzP7fzp2AY832T4aoK6UZ5WRX/ebGd8uZuQ==
+  version "2.16.10"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.16.10.tgz#829b82a46571c2dc202bed38a9c2eeec603e38c4"
+  integrity sha512-vuROzbNVfCmUkZSUbnWSltR1sbheyQbTzug7LB/46fEa1c0EucLeBaCEUE0gF3ZGUGBt9lVUiziGOhhj6K1ORA==
 
 fraction.js@^4.3.7:
   version "4.3.7"
