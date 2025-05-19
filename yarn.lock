@@ -1069,13 +1069,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.76"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.76.tgz#98ac567c86c05e755464165a02b10fdf19704970"
-  integrity sha512-FpZrSFixEWmaGJmz++run8Q3n5zZQjMPXydH9+zeulwNo9f7eR11exgH4MggS9QlD5dPlOBBCtnl/iOsyyb3Vg==
+  version "0.3.77"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.77.tgz#a96d531d2bf21198d0605ff5e5c940471ab0f578"
+  integrity sha512-KCWsB1F9ZJjUaesHte4Mo24CHeu0no38XCwSdjs5ak+XVAOZsnGNpf+4MTflUpchZkqC2kfXcYMI94ab/hKozQ==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.8.0"
-    "@slicemachine/plugin-kit" "0.4.75"
+    "@slicemachine/plugin-kit" "0.4.76"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1133,10 +1133,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.75":
-  version "0.4.75"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.75.tgz#9fc38e9030436691e75ed73582d59ef8877a5db8"
-  integrity sha512-UGhDF2iNYiBKqYdomPiwub78vEKLdfuKVLR/8341heIxTANEGjNjQBtaslRZzCi4HA9jFTx+l3ackZOD1MidXQ==
+"@slicemachine/plugin-kit@0.4.76":
+  version "0.4.76"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.76.tgz#47411357ea531717b83f4f55198151de3ad5a5a1"
+  integrity sha512-dahBV7K4d2XY/OmZVFOhkc1rsWp+wqgV9GxRsN8BgRVF0Vk86g4VQ3yKXWgkuwWkxMAKdjXGnh8Hx6zcN8iJ9w==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -5512,15 +5512,20 @@ semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.4, semver@^7.3.5, semver@^7.6.0, semver@^7.7.1:
-  version "7.7.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
-  integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
+semver@^7.3.4, semver@^7.3.5:
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
+  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
 
 semver@^7.3.8, semver@^7.5.4:
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
   integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
+
+semver@^7.6.0, semver@^7.7.1:
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
+  integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
 
 send@0.18.0:
   version "0.18.0"
