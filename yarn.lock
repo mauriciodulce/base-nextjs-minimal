@@ -894,9 +894,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0":
-  version "7.17.2"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.17.2.tgz#fdd60beb77166332120a289ccc09ba5d05ea0ea6"
-  integrity sha512-4ijxHuuzwwH4hU+QVrpGwEEBPST1D3fjqW37aXbDVhTnZbedrx/jkblGQpRisLs3m7AANuzpm46UNLWcgUDZKw==
+  version "7.17.3"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.17.3.tgz#4516e518466a961fe6ce1b567634e9cf3ebb7c45"
+  integrity sha512-xzJslxmPdnVq7VG+6tSsbWgtmZNiTo+qxANF4kz/Il0DiPrsnVc18jXkzBkIC44GAJPl/mHBorHL7CDuYua2Vg==
   dependencies:
     imgix-url-builder "^0.0.6"
 
@@ -969,10 +969,10 @@
     newtype-ts "^0.3.5"
     tslib "^2.3.1"
 
-"@prismicio/types-internal@3.8.0":
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/types-internal/-/types-internal-3.8.0.tgz#49c30345aea96e0e7ac933093294c9d4f3f91ff7"
-  integrity sha512-1o7pumA1gp/84dxh9a2hw4DFvPtmz3GnGFgKYQUUOUecGkzhEDL43AQG3FfsYYgnoM4KSXrLG0QF1fEkzoMosA==
+"@prismicio/types-internal@3.10.0":
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/types-internal/-/types-internal-3.10.0.tgz#bea2a5f19ed20ee1c7aa7c5c0a90ead21adbb462"
+  integrity sha512-ieooHzL0keCsPQD+Ns8BTSE+0138tV5mPu2KrrV9uBpGw3rydfBkxENNMh+j930/Oi1cIsMj3Yx+UzMjjQdv4w==
   dependencies:
     monocle-ts "^2.3.11"
     newtype-ts "^0.3.5"
@@ -1074,13 +1074,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.77"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.77.tgz#a96d531d2bf21198d0605ff5e5c940471ab0f578"
-  integrity sha512-KCWsB1F9ZJjUaesHte4Mo24CHeu0no38XCwSdjs5ak+XVAOZsnGNpf+4MTflUpchZkqC2kfXcYMI94ab/hKozQ==
+  version "0.3.78"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.78.tgz#1b9f86b808b0a14254d664e650df72fec6a8f874"
+  integrity sha512-jZroF2G011T37OfqCMKWiV6qvue2B2NGzpNQbgjyLNFq+REEvB/HebbwBbRxv7rGoXXSjsIevRmn8Xff6N795w==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
-    "@prismicio/types-internal" "3.8.0"
-    "@slicemachine/plugin-kit" "0.4.76"
+    "@prismicio/types-internal" "3.10.0"
+    "@slicemachine/plugin-kit" "0.4.77"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1138,10 +1138,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.76":
-  version "0.4.76"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.76.tgz#47411357ea531717b83f4f55198151de3ad5a5a1"
-  integrity sha512-dahBV7K4d2XY/OmZVFOhkc1rsWp+wqgV9GxRsN8BgRVF0Vk86g4VQ3yKXWgkuwWkxMAKdjXGnh8Hx6zcN8iJ9w==
+"@slicemachine/plugin-kit@0.4.77":
+  version "0.4.77"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.77.tgz#2fa8eedc625dc9dbfedf10895075615af9f94ec5"
+  integrity sha512-5v8SZc92usKbr4qA1cnZZwgmcuwsEZzF04OBBWjcAvB2vmUnW5HMONa4Smc650mTaxwRJFHZ/6cJewhUiC+bSw==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -1263,9 +1263,9 @@
     csstype "^3.0.2"
 
 "@types/statuses@^2.0.1":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@types/statuses/-/statuses-2.0.5.tgz#f61ab46d5352fd73c863a1ea4e1cef3b0b51ae63"
-  integrity sha512-jmIUGWrAiwu3dZpxntxieC+1n/5c3mjrImkmOSQ2NC5uP6cYO4aAZDdSmRcI5C1oiTmqlZGHC+/NmJrKogbP5A==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@types/statuses/-/statuses-2.0.6.tgz#66748315cc9a96d63403baa8671b2c124f8633aa"
+  integrity sha512-xMAgYwceFhRA2zY+XbEA7mxYbA093wdiW8Vu6gZPGWy9cmOyU9XesH1tNcEWsKFd5Vzrqx5T3D38PWx1FIIXkA==
 
 "@typescript-eslint/eslint-plugin@^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0":
   version "8.30.1"
@@ -5801,10 +5801,15 @@ start-slicemachine@0.12.22:
     open "^8.4.2"
     serve-static "^1.15.0"
 
-statuses@2.0.1, statuses@^2.0.1:
+statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
+
+statuses@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.2.tgz#8f75eecef765b5e1cfcdc080da59409ed424e382"
+  integrity sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==
 
 streamsearch@^1.1.0:
   version "1.1.0"
