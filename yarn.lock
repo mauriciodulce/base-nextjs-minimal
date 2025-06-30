@@ -894,9 +894,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0":
-  version "7.17.3"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.17.3.tgz#4516e518466a961fe6ce1b567634e9cf3ebb7c45"
-  integrity sha512-xzJslxmPdnVq7VG+6tSsbWgtmZNiTo+qxANF4kz/Il0DiPrsnVc18jXkzBkIC44GAJPl/mHBorHL7CDuYua2Vg==
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.18.0.tgz#2d1dd161d13676c2c9fb11528b905ced5433557e"
+  integrity sha512-x6QNrntAsNc5mvClg0YpDLFsqeVA89963HbNtLBDzDWfIFdNXYRQARxo0aUjjUxn1e7fSynIaVdBht7DsQGxjQ==
   dependencies:
     imgix-url-builder "^0.0.6"
 
@@ -969,10 +969,10 @@
     newtype-ts "^0.3.5"
     tslib "^2.3.1"
 
-"@prismicio/types-internal@3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/types-internal/-/types-internal-3.10.0.tgz#bea2a5f19ed20ee1c7aa7c5c0a90ead21adbb462"
-  integrity sha512-ieooHzL0keCsPQD+Ns8BTSE+0138tV5mPu2KrrV9uBpGw3rydfBkxENNMh+j930/Oi1cIsMj3Yx+UzMjjQdv4w==
+"@prismicio/types-internal@3.11.2":
+  version "3.11.2"
+  resolved "https://registry.yarnpkg.com/@prismicio/types-internal/-/types-internal-3.11.2.tgz#cf23093b85370ca958cad7b0a36a3ea74fbcd4f9"
+  integrity sha512-5LUDc4p7VatFikQJFM9oIL0G3+FoNUGvAHpuu3p5HfD1DUA47NATTDyD2Wg0qJi+1FSX5ociPBPryNsTTP/s8Q==
   dependencies:
     monocle-ts "^2.3.11"
     newtype-ts "^0.3.5"
@@ -1074,13 +1074,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.78"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.78.tgz#1b9f86b808b0a14254d664e650df72fec6a8f874"
-  integrity sha512-jZroF2G011T37OfqCMKWiV6qvue2B2NGzpNQbgjyLNFq+REEvB/HebbwBbRxv7rGoXXSjsIevRmn8Xff6N795w==
+  version "0.3.80"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.80.tgz#d06413f942bce519dc2315bda7f03b2e628457d9"
+  integrity sha512-XOFyJ22yuAYKH27ef1H89lGRr8wb4/YjxknTY41gxPTNhGbdZBbWMzqBOdVX3CkWs+YUUbFyqtyz+Yek4aEnfQ==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
-    "@prismicio/types-internal" "3.10.0"
-    "@slicemachine/plugin-kit" "0.4.77"
+    "@prismicio/types-internal" "3.11.2"
+    "@slicemachine/plugin-kit" "0.4.79"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1138,10 +1138,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.77":
-  version "0.4.77"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.77.tgz#2fa8eedc625dc9dbfedf10895075615af9f94ec5"
-  integrity sha512-5v8SZc92usKbr4qA1cnZZwgmcuwsEZzF04OBBWjcAvB2vmUnW5HMONa4Smc650mTaxwRJFHZ/6cJewhUiC+bSw==
+"@slicemachine/plugin-kit@0.4.79":
+  version "0.4.79"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.79.tgz#8c825e86d93546a8b4b8c0fc832ba98572cc6a86"
+  integrity sha512-RRYV2yvcT7ypSs9LQHiBEAfgHvSCfE7CCOhb8aaHvQbEa0v0DxfMUSXOwSn/sDXxBpT9CbmJ6u49MYV3ymwZSQ==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -1153,7 +1153,7 @@
     io-ts-reporters "^2.0.1"
     p-limit "^4.0.0"
     prettier "^3.0.3"
-    prismic-ts-codegen "0.1.25"
+    prismic-ts-codegen "0.1.27"
 
 "@swc/counter@0.1.3":
   version "0.1.3"
@@ -5212,19 +5212,19 @@ prettier-plugin-tailwindcss@^0.6.5:
   integrity sha512-uQ0asli1+ic8xrrSmIOaElDu0FacR4x69GynTh2oZjFY10JUt6EEumTQl5tB4fMeD6I1naKd+4rXQQ7esT2i1g==
 
 prettier@^3.0.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
-  integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
+  integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
 
 prettier@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
   integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
-prismic-ts-codegen@0.1.25:
-  version "0.1.25"
-  resolved "https://registry.yarnpkg.com/prismic-ts-codegen/-/prismic-ts-codegen-0.1.25.tgz#11f790a41e9b6ef039a434ff5165dac70996107d"
-  integrity sha512-4To1FgktKtl21oGvs/LTnC3JNHrex4bInkOYavyb+/E0EMOLYJUiv32rU/GpzNu5TrY8q6Y34BelQliVOu5IBg==
+prismic-ts-codegen@0.1.27:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/prismic-ts-codegen/-/prismic-ts-codegen-0.1.27.tgz#608fd8e0b8bf0c4419f46a811a14aa797d30fdbc"
+  integrity sha512-PAY1FRj+O16VCFQTqG3d5v7RD6aHOtpYCe6xfUPYEHIPJOACY76uQjx27oxg/gtU5npJmgGcYb65cvjvwF2s9Q==
   dependencies:
     "@prismicio/custom-types-client" "^1.3.1"
     common-tags "^1.8.2"
