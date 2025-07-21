@@ -1088,9 +1088,9 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.80"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.80.tgz#d06413f942bce519dc2315bda7f03b2e628457d9"
-  integrity sha512-XOFyJ22yuAYKH27ef1H89lGRr8wb4/YjxknTY41gxPTNhGbdZBbWMzqBOdVX3CkWs+YUUbFyqtyz+Yek4aEnfQ==
+  version "0.3.81"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.81.tgz#c384aa755bf396b1df52bb9c244d350948654780"
+  integrity sha512-GV+dA+iEpn9dFF9CGwINqDQBW0/nnPm4zXN206tZvQtxwDUERhLpoPoo6GTkIzmvrlBhknnLGhwYYXkapA/2yQ==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
