@@ -901,9 +901,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0":
-  version "7.18.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.18.0.tgz#2d1dd161d13676c2c9fb11528b905ced5433557e"
-  integrity sha512-x6QNrntAsNc5mvClg0YpDLFsqeVA89963HbNtLBDzDWfIFdNXYRQARxo0aUjjUxn1e7fSynIaVdBht7DsQGxjQ==
+  version "7.19.1"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.19.1.tgz#887bba15f3b9e8cba729b749b0a214b28fc04993"
+  integrity sha512-hZpqnfWs8AtAaRYxI6t1utkebtV6urVIQeReLUpgK/rs3tInuTPDBGM5TpLYnjJ47k2OvFLH3jV3snFO78tEyA==
   dependencies:
     imgix-url-builder "^0.0.6"
 
@@ -1081,13 +1081,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.81"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.81.tgz#c384aa755bf396b1df52bb9c244d350948654780"
-  integrity sha512-GV+dA+iEpn9dFF9CGwINqDQBW0/nnPm4zXN206tZvQtxwDUERhLpoPoo6GTkIzmvrlBhknnLGhwYYXkapA/2yQ==
+  version "0.3.82"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.82.tgz#9b7cfe2b3eeb5a96e86b688c4ad154fda4c4649e"
+  integrity sha512-cb9K7VJ6oPTWO4vAdUjJU8KW9HekC/x2g692GgFIau1RQbEK1p1qQ8APTb7LwFl5wdWo3Q4HtVzPTwmsLUBSPA==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.79"
+    "@slicemachine/plugin-kit" "0.4.80"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1145,10 +1145,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.79":
-  version "0.4.79"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.79.tgz#8c825e86d93546a8b4b8c0fc832ba98572cc6a86"
-  integrity sha512-RRYV2yvcT7ypSs9LQHiBEAfgHvSCfE7CCOhb8aaHvQbEa0v0DxfMUSXOwSn/sDXxBpT9CbmJ6u49MYV3ymwZSQ==
+"@slicemachine/plugin-kit@0.4.80":
+  version "0.4.80"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.80.tgz#9f54e1279853f0be49c1c91467b22a49bd56089e"
+  integrity sha512-NIy0InHB8XvZVlMjLkXA7eSzSlGzpuzGZnpqlaJHRCDz0318mRAXxSPh/oDmptD7OV4RvL7tEUcIRN7BW0LU5g==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -5800,9 +5800,9 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.21"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz#6d6e980c9df2b6fc905343a3b2d702a6239536c3"
-  integrity sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==
+  version "3.0.22"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.22.tgz#abf5a08a6f5d7279559b669f47f0a43e8f3464ef"
+  integrity sha512-4PRT4nh1EImPbt2jASOKHX7PB7I+e4IWNLvkKFDxNhJlfjbYlleYQh285Z/3mPTHSAK/AvdMmw5BNNuYH8ShgQ==
 
 split2@^4.0.0:
   version "4.2.0"
