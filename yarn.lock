@@ -901,9 +901,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0":
-  version "7.19.1"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.19.1.tgz#887bba15f3b9e8cba729b749b0a214b28fc04993"
-  integrity sha512-hZpqnfWs8AtAaRYxI6t1utkebtV6urVIQeReLUpgK/rs3tInuTPDBGM5TpLYnjJ47k2OvFLH3jV3snFO78tEyA==
+  version "7.20.1"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.20.1.tgz#15eeb2a7c089181e35deea71376129dcbca29b88"
+  integrity sha512-SAiMZp760628XVuF7jqBzICum8PvfQ1HRWNztTlBpltJxLc+r+JH2H3vHXmJ+zY4gNex+5Ch1acLHrVWmHMTGw==
   dependencies:
     imgix-url-builder "^0.0.6"
 
@@ -1081,13 +1081,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.82"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.82.tgz#9b7cfe2b3eeb5a96e86b688c4ad154fda4c4649e"
-  integrity sha512-cb9K7VJ6oPTWO4vAdUjJU8KW9HekC/x2g692GgFIau1RQbEK1p1qQ8APTb7LwFl5wdWo3Q4HtVzPTwmsLUBSPA==
+  version "0.3.83"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.83.tgz#1124684a59b916029a9117655f69856f5e99129a"
+  integrity sha512-kGjNCS2aRktC7dHfMadXzNQ4zq9Rb0b+PUMw0MPPaQcGGyX+7gQSRCEaGKoFomRaVzZ7zicy4CUOz2MUj/gzKQ==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.80"
+    "@slicemachine/plugin-kit" "0.4.81"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1145,10 +1145,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "^0.1.20"
 
-"@slicemachine/plugin-kit@0.4.80":
-  version "0.4.80"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.80.tgz#9f54e1279853f0be49c1c91467b22a49bd56089e"
-  integrity sha512-NIy0InHB8XvZVlMjLkXA7eSzSlGzpuzGZnpqlaJHRCDz0318mRAXxSPh/oDmptD7OV4RvL7tEUcIRN7BW0LU5g==
+"@slicemachine/plugin-kit@0.4.81":
+  version "0.4.81"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.81.tgz#b86256600ea66a8c1367c1485c765c0d51b4cf75"
+  integrity sha512-B4apt4lp/oH91wRp07PHLgJMygQwhDwJiX8NisYfuMA68BcVv3GnZ4ebRFj0LZK/i5zISwAnzIwqlYlngiPuCQ==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -2327,9 +2327,9 @@ decamelize-keys@^2.0.1:
     type-fest "^3.1.0"
 
 decamelize@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-6.0.0.tgz#8cad4d916fde5c41a264a43d0ecc56fe3d31749e"
-  integrity sha512-Fv96DCsdOgB6mdGl67MT5JaTNKRzrzill5OH5s8bjYJXVlcXyPYGyPsUkWyGV5p1TXI5esYIYMMeDJL0hEIwaA==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-6.0.1.tgz#e858c37870153e1f733e92347ac3a3f009081ca7"
+  integrity sha512-G7Cqgaelq68XHJNGlZ7lrNQyhZGsFqpwtGFexqUv4IQdjKoSYF7ipZ9UuTJZUSQXFj/XaoBLuEVIVqr8EJngEQ==
 
 deep-is@^0.1.3:
   version "0.1.4"
@@ -3141,9 +3141,9 @@ fp-ts@^2.11.8:
   integrity sha512-nmDtNqmMZkOxu0M5hkrS9YA15/KPkYkILb6Axg9XBAoUoYEtzg+LFmVWqZrl9FNttsW0qIUpx9RCA9INbv+Bxw==
 
 fp-ts@^2.13.1:
-  version "2.16.10"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.16.10.tgz#829b82a46571c2dc202bed38a9c2eeec603e38c4"
-  integrity sha512-vuROzbNVfCmUkZSUbnWSltR1sbheyQbTzug7LB/46fEa1c0EucLeBaCEUE0gF3ZGUGBt9lVUiziGOhhj6K1ORA==
+  version "2.16.11"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.16.11.tgz#831a10514bf4e22adf12065732fc5a20c85d9623"
+  integrity sha512-LaI+KaX2NFkfn1ZGHoKCmcfv7yrZsC3b8NtWsTVQeHkq4F27vI5igUuO53sxqDEa2gNQMHFPmpojDw/1zmUK7w==
 
 fraction.js@^4.3.7:
   version "4.3.7"
@@ -3997,9 +3997,9 @@ json5@^1.0.2:
     minimist "^1.2.0"
 
 jsonfile@^6.0.1:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
-  integrity sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-6.2.0.tgz#7c265bd1b65de6977478300087c99f1c84383f62"
+  integrity sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==
   dependencies:
     universalify "^2.0.0"
   optionalDependencies:
