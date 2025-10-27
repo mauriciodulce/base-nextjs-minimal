@@ -22,9 +22,9 @@
     picocolors "^1.1.1"
 
 "@babel/helper-validator-identifier@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz#a7054dcc145a967dd4dc8fee845a57c1316c9df8"
-  integrity sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==
+  version "7.28.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz#010b6938fab7cb7df74aa2bbc06aa503b8fe5fb4"
+  integrity sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==
 
 "@babel/runtime@^7.21.0":
   version "7.24.8"
@@ -913,9 +913,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0":
-  version "7.20.1"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.20.1.tgz#15eeb2a7c089181e35deea71376129dcbca29b88"
-  integrity sha512-SAiMZp760628XVuF7jqBzICum8PvfQ1HRWNztTlBpltJxLc+r+JH2H3vHXmJ+zY4gNex+5Ch1acLHrVWmHMTGw==
+  version "7.20.3"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.20.3.tgz#4add74c046f881b9197e285f66acb83950ae63d3"
+  integrity sha512-PCSALP2sZuxZZQS9IA/VKOvR9AcadQM+v+Oc7yPq+xcRjYvLxvVeyP9zyitEBoIwj6qV7w3zSZzSLQQsg9Qzsw==
   dependencies:
     imgix-url-builder "^0.0.6"
 
@@ -1072,13 +1072,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.84"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.84.tgz#3dece8ce8cb296a9d9d0a45c1cfd5c3543d7e275"
-  integrity sha512-vHdMIXDC2AlS0zyHQcz7LPzq5m4t+ysTNc3h6ZCV3X5G2E609/bnStJ524QK08/W3OUNT8JVOvQdqOjGgQLeiw==
+  version "0.3.85"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.85.tgz#56e53344607ce1b16a56aca62528a0eaa6c448f5"
+  integrity sha512-n4UrvJ1vXcoIOmyV6k/X1WfYYFophyqY787qqjTn0S6IvZpRkGM8m3B61Cus3ioyaIz4A+qrsrwOZKzaWKeoHw==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.82"
+    "@slicemachine/plugin-kit" "0.4.83"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1137,10 +1137,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "0.1.27"
 
-"@slicemachine/plugin-kit@0.4.82":
-  version "0.4.82"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.82.tgz#4b7f760531cec72a0091a81ddfdde37d5f9f2fa2"
-  integrity sha512-3bS7iugPdlr3tMBAItfpZF/XGJwtmp2lGDsqtkNVd2zCl7usX4uQciqWoCZSbtEOxBRa6Ziq68Q1jOcUc+fGeg==
+"@slicemachine/plugin-kit@0.4.83":
+  version "0.4.83"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.83.tgz#724b31a40235582551119783fb31b34e9bdd9e89"
+  integrity sha512-VR9to6n6TsCe+dIQP5uvnrWWyTzSUzC4BHXcGkY7KxZ3688odGCn5g2bh2lr8cV+gzU+Oj49G8f2RLCaNsUyqQ==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -5487,15 +5487,15 @@ semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.6.0, semver@^7.6.2, semver@^7.7.1:
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
-  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
-
-semver@^7.7.2:
+semver@^7.3.4, semver@^7.3.5, semver@^7.7.2:
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
   integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
+
+semver@^7.3.8, semver@^7.6.0, semver@^7.6.2, semver@^7.7.1:
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
+  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
 
 send@0.19.0:
   version "0.19.0"
@@ -5925,9 +5925,9 @@ strip-final-newline@^3.0.0:
   integrity sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==
 
 strip-indent@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-4.1.0.tgz#8658a77cece02a4f27064bdb0a459257edb565f6"
-  integrity sha512-OA95x+JPmL7kc7zCu+e+TeYxEiaIyndRx0OrBcK2QPPH09oAndr2ALvymxWA+Lx1PYYvFUm4O63pRkdJAaW96w==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-4.1.1.tgz#aba13de189d4ad9a17f6050e76554ac27585c7af"
+  integrity sha512-SlyRoSkdh1dYP0PzclLE7r0M9sgbFKKMFXpFRUMNuKhQSbC6VQIGzq3E0qsfvGJaUFJPGv6Ws1NZ/haTAjfbMA==
 
 strip-json-comments@^3.1.1:
   version "3.1.1"
