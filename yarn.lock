@@ -925,14 +925,7 @@
   dependencies:
     imgix-url-builder "^0.0.5"
 
-"@prismicio/client@^7.1.0":
-  version "7.20.3"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.20.3.tgz#4add74c046f881b9197e285f66acb83950ae63d3"
-  integrity sha512-PCSALP2sZuxZZQS9IA/VKOvR9AcadQM+v+Oc7yPq+xcRjYvLxvVeyP9zyitEBoIwj6qV7w3zSZzSLQQsg9Qzsw==
-  dependencies:
-    imgix-url-builder "^0.0.6"
-
-"@prismicio/client@^7.6.0":
+"@prismicio/client@^7.1.0", "@prismicio/client@^7.6.0":
   version "7.21.0"
   resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.21.0.tgz#8b09dbabd596443b27c5cbaeb0eff0090eb86819"
   integrity sha512-9FWmywGC4nAsgrVk6khRJQ6Qvzb/KwbwsVqfHIM+N/Hxxn+V34u+L/X1XzCxwMdGWF5lvH8lLmmrOLowpO4KVA==
@@ -1085,13 +1078,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.86"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.86.tgz#00b4a1fa0fcca01b3e347ea50fdee5dcdb332b63"
-  integrity sha512-bJsF83etOkKWVQPAGr4IquHlopc3eVkHl8udJHuCJfwjQH5M6QwBzzlwJncMQgtn0hH/NWQs/BfeZsmitX2kiw==
+  version "0.3.89"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.89.tgz#a4601c0c3e5359e0995eaea4005aaf58bb867075"
+  integrity sha512-XlBZf+jJhoLy8Oc3jO4/u3rBZdBtf7CpdsCT0rq0rDEenkN0+hkhIdDlrQwKzLfBHbhyAeJtOSYFQ4P5nxc2ig==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.84"
+    "@slicemachine/plugin-kit" "0.4.87"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1150,10 +1143,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "0.1.27"
 
-"@slicemachine/plugin-kit@0.4.84":
-  version "0.4.84"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.84.tgz#eeabbb791b8939076107f0eda259db0883fa713c"
-  integrity sha512-0YBrwane9KdiCFuGH+l6blk+qj/6HweA5frYAS2lbOpcXI69iwBzzZTLExIbiKM4IyIAlK3OpKc8Kzoo/l/g5A==
+"@slicemachine/plugin-kit@0.4.87":
+  version "0.4.87"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.87.tgz#89a42c317b460b9730cf05cf1d4af0d8ca9acac4"
+  integrity sha512-XfPVoMunjvzokYIgpmDLa8j0qvDGeDlewm8qYVEZdoZhqOk85N2NiV3uJZrJ6Fydhzit1vLOEnbLxeRDXBmKsg==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -5170,7 +5163,12 @@ prettier-plugin-tailwindcss@^0.6.5:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.6.14.tgz#06701a580f7104c034ae3b699dbd17a80d67f0cd"
   integrity sha512-pi2e/+ZygeIqntN+vC573BcW5Cve8zUB0SSAGxqpB4f96boZF4M3phPVoOFCeypwkpRYdi7+jQ5YJJUwrkGUAg==
 
-prettier@^3.0.3, prettier@^3.3.3:
+prettier@^3.0.3:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
+  integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
+
+prettier@^3.3.3:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
   integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
@@ -6532,6 +6530,6 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 yocto-queue@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
-  integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.2.tgz#3e09c95d3f1aa89a58c114c99223edf639152c00"
+  integrity sha512-4LCcse/U2MHZ63HAJVE+v71o7yOdIe4cZ70Wpf8D/IyjDKYQLV5GD46B+hSTjJsvV5PztjvHoU580EftxjDZFQ==
