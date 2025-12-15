@@ -1078,13 +1078,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.89"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.89.tgz#a4601c0c3e5359e0995eaea4005aaf58bb867075"
-  integrity sha512-XlBZf+jJhoLy8Oc3jO4/u3rBZdBtf7CpdsCT0rq0rDEenkN0+hkhIdDlrQwKzLfBHbhyAeJtOSYFQ4P5nxc2ig==
+  version "0.3.90"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.90.tgz#28334ece2e6fa2ed650735dcda64b47699d36e8b"
+  integrity sha512-JMQhBKDCZf/PamnYvpbL3HZtKXwgXX4UxOm2uYOxsLUT6YyTq8Vs4mA7Mw1eTx8cgOtoAJN8MYMzcGJ6/06TBg==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.87"
+    "@slicemachine/plugin-kit" "0.4.88"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1143,10 +1143,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "0.1.27"
 
-"@slicemachine/plugin-kit@0.4.87":
-  version "0.4.87"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.87.tgz#89a42c317b460b9730cf05cf1d4af0d8ca9acac4"
-  integrity sha512-XfPVoMunjvzokYIgpmDLa8j0qvDGeDlewm8qYVEZdoZhqOk85N2NiV3uJZrJ6Fydhzit1vLOEnbLxeRDXBmKsg==
+"@slicemachine/plugin-kit@0.4.88":
+  version "0.4.88"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.88.tgz#170ba9691edf94514dd8fca661a3035bbf0f6083"
+  integrity sha512-fEc88J0FfyTlyjITshJ2OcercCSmtgxCZMmWgGQlaQi4OWfmkrYRquVNLKt3/1Bw2q6glk2JBh9IFy33I2l/gQ==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
