@@ -1078,13 +1078,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.91"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.91.tgz#24c1d6c7ebded1fd49fe89a91e0221e929bcb779"
-  integrity sha512-2tHa8iEp5lhePNJt2emv9MSFp679D1FK759C+1164W2eTjJFx+o5K9RqZ+tgNom7MuHlaGtbCZgv7mWxRGrJXg==
+  version "0.3.92"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.92.tgz#cf2404914ee62cf72a7fa639648e2360b7e87e90"
+  integrity sha512-YsSeoT7E8t0/qi6LpAvsZY4iKOL0RHNa6jXstAnsbSH8WTZK+9ehLCY1EyubLgdTB3qkfPLE4QteOCa1ixwB2g==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "3.11.2"
-    "@slicemachine/plugin-kit" "0.4.89"
+    "@slicemachine/plugin-kit" "0.4.90"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1143,10 +1143,10 @@
     prettier "^3.0.3"
     prismic-ts-codegen "0.1.27"
 
-"@slicemachine/plugin-kit@0.4.89":
-  version "0.4.89"
-  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.89.tgz#f409dbf6989c8241b10d2479d5e053efde5e115c"
-  integrity sha512-t6ABAIwDLgdmZrlB2AN/y4XKRJWdKnWpiVfRVP7BX5PstemU9H91npc9zWpCloJJEr8Y1BG5OMvVqdVeKh7uQw==
+"@slicemachine/plugin-kit@0.4.90":
+  version "0.4.90"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.90.tgz#d583b4d4b37b313acc4d45618024529c4a8b687d"
+  integrity sha512-QZQmtskml66eUmjxPB0HCn3NPthSND5dDSceRoGe6DqwTTt4HY79aJ3X0unPuqJzp9FkGLE8XaBRgeK33V7iSg==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -3023,9 +3023,9 @@ fast-uri@^3.0.1:
   integrity sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==
 
 fastq@^1.6.0:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.19.1.tgz#d50eaba803c8846a883c16492821ebcd2cda55f5"
-  integrity sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.1.tgz#ca750a10dc925bc8b18839fd203e3ef4b3ced675"
+  integrity sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==
   dependencies:
     reusify "^1.0.4"
 
