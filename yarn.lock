@@ -566,11 +566,11 @@
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
 "@formatjs/intl-localematcher@^0.5.2":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.5.4.tgz#caa71f2e40d93e37d58be35cfffe57865f2b366f"
-  integrity sha512-zTwEpWOzZ2CiKcB93BLngUX59hQkuZjT2+SAQEscSm52peDW/getsawMcWF1rGRpMCX6D7nSJA3CzJ8gn13N/g==
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.5.10.tgz#1e0bd3fc1332c1fe4540cfa28f07e9227b659a58"
+  integrity sha512-af3qATX+m4Rnd9+wHcjJ4w2ijq+rAVP3CCinJQvFv1kgSu1W6jypUmvleJxcewdxmutM8dmIRZFxO/IQBZmP2Q==
   dependencies:
-    tslib "^2.4.0"
+    tslib "2"
 
 "@hapi/hoek@^9.0.0", "@hapi/hoek@^9.3.0":
   version "9.3.0"
@@ -952,9 +952,9 @@
     uuid "^9.0.1"
 
 "@prismicio/next@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/next/-/next-1.6.0.tgz#8d77f0ec6c0dbfd29d1a2762ed9978257999e098"
-  integrity sha512-84JydTZbn73mJLkQ5SuGpolOFYGRQIAz38XwdkdW1nh5sfean5SD+BSQ3iifvEIsKPSX9MNZRDqs/phXlMOLww==
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@prismicio/next/-/next-1.7.2.tgz#f446461043492a922e42adbd0e715cbb6d013f55"
+  integrity sha512-dS9fRujiqK+uyhA5vCJgvxp4k7w3s6jm5Ln4fh1NSMS00yo7lHVL4GnhNmrxqATnIn/nHLbQmO24+yZVRWvxjw==
   dependencies:
     "@formatjs/intl-localematcher" "^0.5.2"
     imgix-url-builder "^0.0.4"
@@ -4356,10 +4356,15 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-negotiator@0.6.3, negotiator@^0.6.3:
+negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
+
+negotiator@^0.6.3:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.4.tgz#777948e2452651c570b712dd01c23e262713fff7"
+  integrity sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==
 
 newtype-ts@^0.3.5:
   version "0.3.5"
@@ -6114,7 +6119,7 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^2.0.3, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.4.1, tslib@^2.5.0, tslib@^2.8.0:
+tslib@2, tslib@^2.0.3, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.4.1, tslib@^2.5.0, tslib@^2.8.0:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
