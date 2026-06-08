@@ -926,9 +926,9 @@
     imgix-url-builder "^0.0.5"
 
 "@prismicio/client@^7.1.0", "@prismicio/client@^7.6.0":
-  version "7.21.6"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.21.6.tgz#04fabe495e7c382c2efa16a972d5fa3b3d294bc8"
-  integrity sha512-dWp0qxldujorY0jR5pQOpW9gloFWOJfFxJPYqkDZqp4w59jIn8h0aiwOMFxh7AFZdLgINuM1BALQxnhPNSxgbA==
+  version "7.21.8"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-7.21.8.tgz#d20ab0ed92e59361fa4716d0457f32cce78ac616"
+  integrity sha512-HFXrV/XdbVy/AL7V5K/976gr4SEa7WA7xuZuSNuseLK5VSl0DlMSgy7GTUk+ngjz9QvN0Xu3nxWzUGFxnD8RIA==
   dependencies:
     imgix-url-builder "^0.0.6"
 
