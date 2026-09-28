@@ -1161,13 +1161,13 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@slicemachine/adapter-next@^0.3.42":
-  version "0.3.98"
-  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.98.tgz#56c66a6ce15586e229fd58820ce70610d162ca64"
-  integrity sha512-2zBdDCwnbsdm0+oTmgg8SNsWtE49+BWSoYv9B8dFJtTSnUrROEF08B2nLI0ao6HebD4nm2UCdBXaKpVKRbTmDg==
+  version "0.3.99"
+  resolved "https://registry.yarnpkg.com/@slicemachine/adapter-next/-/adapter-next-0.3.99.tgz#532b7472d9360edb2407f729bfc7595fd69144ff"
+  integrity sha512-7ymC9J3Q18rfCi/TrA/7/N4G87jVCfz1bYdFjBGaoBr8kprqsVnt9V928hX2DK6hfe/UUZngTBby460gLNhEfg==
   dependencies:
     "@prismicio/simulator" "^0.1.4"
     "@prismicio/types-internal" "^3.17.2"
-    "@slicemachine/plugin-kit" "0.4.97"
+    "@slicemachine/plugin-kit" "0.4.98"
     common-tags "^1.8.2"
     fp-ts "^2.13.1"
     io-ts "^2.2.20"
@@ -1214,6 +1214,23 @@
   version "0.4.97"
   resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.97.tgz#0f0976df41a89b38e87c9b920d02cee7c06ab4af"
   integrity sha512-3GnBWPkRmaeXBPCqV6H6pnwzUSS4JX4mD2O5wmCq4kT0etaubBIpXjIKYBj3uHjOZGPAIgJWJVGyOIAktJrhDA==
+  dependencies:
+    "@prismicio/client" "7.17.0"
+    common-tags "^1.8.2"
+    defu "^6.1.5"
+    dotenv "16.3.1"
+    fp-ts "^2.13.1"
+    fs-extra "11.1.1"
+    io-ts "^2.2.20"
+    io-ts-reporters "^2.0.1"
+    p-limit "^4.0.0"
+    prettier "^3.0.3"
+    prismic-ts-codegen "0.1.27"
+
+"@slicemachine/plugin-kit@0.4.98":
+  version "0.4.98"
+  resolved "https://registry.yarnpkg.com/@slicemachine/plugin-kit/-/plugin-kit-0.4.98.tgz#24a3d7f5556c187242a72edaca9f68b620652e0f"
+  integrity sha512-qCjLCjMRVkNCoGEiCMQ8FnmrBhTG3edxHlYpwQn5cEGveGS13m7SkBflh4eEgrEzgNWTIpGtZo3DG/VRpjvsqw==
   dependencies:
     "@prismicio/client" "7.17.0"
     common-tags "^1.8.2"
@@ -2383,9 +2400,9 @@ debug@^4.3.4, debug@^4.4.0, debug@^4.4.3:
     ms "^2.1.3"
 
 decamelize-keys@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/decamelize-keys/-/decamelize-keys-2.0.1.tgz#32115e60cc5eeaea11d6692fd73de3b92e34502f"
-  integrity sha512-nrNeSCtU2gV3Apcmn/EZ+aR20zKDuNDStV67jPiupokD3sOAFeMzslLMCFdKv1sPqzwoe5ZUhsSW9IAVgKSL/Q==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/decamelize-keys/-/decamelize-keys-2.1.0.tgz#57bb7e5e6175b301c9465c101472bdb8c2b606b2"
+  integrity sha512-YXq2MJwiW49oxbOvMj4RtoKqHcm09iqR9DbuYtF9eh+ve49Axta+VUDXqe2KT0U/jImBBjpW9XRUC+FfwvmuSg==
   dependencies:
     decamelize "^6.0.0"
     map-obj "^4.3.0"
@@ -3085,9 +3102,9 @@ fast-uri@^3.0.1:
   integrity sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==
 
 fastq@^1.6.0:
-  version "1.20.1"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.1.tgz#ca750a10dc925bc8b18839fd203e3ef4b3ced675"
-  integrity sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==
+  version "1.20.3"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.20.3.tgz#7ab8731e647b56abcfeee997dae333ca3ee1d04d"
+  integrity sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==
   dependencies:
     reusify "^1.0.4"
 
@@ -3489,7 +3506,7 @@ has-tostringtag@^1.0.2:
   dependencies:
     has-symbols "^1.0.3"
 
-hasown@^2.0.2, hasown@^2.0.3:
+hasown@^2.0.2, hasown@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.4.tgz#8c62d8cb90beb2aad5d0a5b67581ad9854c3f003"
   integrity sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==
@@ -3745,11 +3762,11 @@ is-core-module@^2.13.0, is-core-module@^2.16.1:
     hasown "^2.0.2"
 
 is-core-module@^2.5.0, is-core-module@^2.8.1:
-  version "2.16.2"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.16.2.tgz#3e07450a8080ebce3fbf0cac494f4d2ab324e082"
-  integrity sha512-evOr8xfXKxE6qSR0hSXL2r3sd7ALj8+7jQEUvPYcm5sgZFdJ+AYzT6yNmJenvIYQBgIGwfwz08sL8zoL7yq2BA==
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.17.0.tgz#75c1c76236c9f7e38ddbfff292e127dc13b21027"
+  integrity sha512-J/vG0zBCbIKOQFfufSwyXdMrsohyJIUNkrnmo6WZGzoM7tr/lsbfW5b2BvisL6zsyMzK9UxV9L6c7AoFbyXHOA==
   dependencies:
-    hasown "^2.0.3"
+    hasown "^2.0.4"
 
 is-data-view@^1.0.1, is-data-view@^1.0.2:
   version "1.0.2"
@@ -3995,9 +4012,9 @@ jiti@^2.5.1:
   integrity sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==
 
 joi@^17.13.3:
-  version "17.13.6"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-17.13.6.tgz#3fa166ca4b7feac442340c1522ea2f51cca3d425"
-  integrity sha512-ImNZaq/LSysofih+xIGYfR0WUXMA9GLUNB//YTCSrZptoRmVgaNAdJyi6K1kXi9pkLEoSkoI8I4UwtNiu/D7nw==
+  version "17.13.8"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.13.8.tgz#92069d521eea09fd709d8abbb86b0ef02862224f"
+  integrity sha512-iPKOGmiRw1jxf/JOPwxmCcUQAOdF359mdzYiP2DJ+TMX0YK2zjK3D+zYOaGjpumWxOFF/l2xVWjRVK5bGSLdEw==
   dependencies:
     "@hapi/hoek" "^9.3.0"
     "@hapi/topo" "^5.1.0"
@@ -5218,7 +5235,12 @@ prettier-plugin-tailwindcss@^0.8.0:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.8.1.tgz#bb30f2794dbaa2ef0d36e39ebc258c8c03d8f0c3"
   integrity sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==
 
-prettier@^3.0.3, prettier@^3.3.3:
+prettier@^3.0.3:
+  version "3.9.9"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.9.tgz#09b826918c91cd4cbc80e0cbd1d2a922ff04f233"
+  integrity sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==
+
+prettier@^3.3.3:
   version "3.9.6"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.6.tgz#b3ea5146515d40fc53f18aa63f74dfab1e10dbf6"
   integrity sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==
@@ -5819,9 +5841,9 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.23"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.23.tgz#b069e687b1291a32f126893ed76a27a745ee2133"
-  integrity sha512-CWLcCCH7VLu13TgOH+r8p1O/Znwhqv/dbb6lqWy67G+pT1kHmeD/+V36AVb/vq8QMIQwVShJ6Ssl5FPh0fuSdw==
+  version "3.0.24"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.24.tgz#550436df9dc7dcf5c29832ceda40256a9b00de3a"
+  integrity sha512-cLS9TtWkIQFyLkJ3/5aFQAOHOSKTlOs/7WDut/XPSdjom1fJhUdkepeJAKXa9Y05+FabHd0sti+Et559vDtkpQ==
 
 split2@^4.0.0:
   version "4.2.0"
